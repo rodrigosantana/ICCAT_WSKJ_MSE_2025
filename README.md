@@ -43,13 +43,13 @@ There are also two sets of “robustness” OMs already implemented. They were i
 
 # 3. Conceptual Management Objectives
 
-**Status**: The stock should have a 60% or greater probability of occurring in the green quadrant of the Kobe matrix over the medium-term (4-10 years) using a 30-year projection period;
+- **Status**: The stock should have a 60% or greater probability of occurring in the green quadrant of the Kobe matrix over the medium-term (4-10 years) using a 30-year projection period;
 
-**Safety**: There should be no greater than 10% probability of the stock falling below B<sub>LIM</sub> (0.4*B<sub>MSY</sub>) at any point during the 30-year projection period;
+- **Safety**: There should be no greater than 10% probability of the stock falling below B<sub>LIM</sub> (0.4*B<sub>MSY</sub>) at any point during the 30-year projection period;
 
-**Yield**: Maximize overall catch levels;
+- **Yield**: Maximize overall catch levels;
 
-**Stability**: Any changes in TAC between management periods should be 25% or less.
+- **Stability**: Any changes in TAC between management periods should be 25% or less.
 
 # 4. Work Plan for 2025
 
