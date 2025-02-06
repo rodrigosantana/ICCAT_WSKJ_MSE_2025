@@ -51,10 +51,10 @@ SSBMSY.
 Below is described, in a hierarchical manner, the proposed work plan for the evolution and progress of the
 W-SKJ MSE during 2025.
 
-1) Reevaluate possible uncertainties in stock assessments and closed-loop simulations, as a form to avoid possible biologically implausible scenarios and present the results of these analysis during the Bigeye Data Preparatory. [*21 April 2025*];
+1) Reevaluate possible uncertainties in stock assessments and closed-loop simulations, as a form to avoid possible biologically implausible scenarios and present the results of these analysis during the Bigeye Data Preparatory. [**21 April 2025**];
 
-2) Test and evaluate the new objectives defined by the ICCAT Commission into the MSE framework and present the results of these analysis during the Bigeye Stock Assessment meeting. [*14 July 2025*];
+2) Test and evaluate the new objectives defined by the ICCAT Commission into the MSE framework and present the results of these analysis during the Bigeye Stock Assessment meeting. [**14 July 2025**];
 
-3) Implement robustness tests scenarios that incorporate potential effects of climate change on the western Atlantic skipjack tuna stock and present the results of these analysis during the Tropical Tuna Species Group meeting. [*22 September 2025*].
+3) Implement robustness tests scenarios that incorporate potential effects of climate change on the western Atlantic skipjack tuna stock and present the results of these analysis during the Tropical Tuna Species Group meeting. [**22 September 2025**].
 
 # 4. Code Development
