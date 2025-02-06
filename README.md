@@ -62,11 +62,17 @@ W-SKJ MSE during 2025.
 
 3) Implement robustness tests scenarios that incorporate potential effects of climate change on the western Atlantic skipjack tuna stock and present the results of these analysis during the Tropical Tuna Species Group meeting. [**22 September 2025**].
 
-# 5. Code Development
+# 5. Data Requirements
+
+1) Western skipjack tuna capture data must be updated by 2023.
+
+2) The same must be done for the abundance indices that will be used by management procedures, which must be updated by 2023.
+
+# 6. Code Development
 
 Soon...
 
-# 6. References
+# 7. References
 
 - Huynh Q. C., Carruthers T., Mourato B., Sant'Ana R., Cardoso LG., Travassos P. and Hazin F. 2020. A demonstration of a MSE framework for western skipjack tuna, including operating model conditioning. Collect. Vol. Sci. Pap. ICCAT, 77(8): 121-144.
 
