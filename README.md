@@ -1,4 +1,4 @@
-# Western Atlantic Skijack tuna Management Strategy Evaluation
+# Western Atlantic Skipjack tuna Management Strategy Evaluation
 
 ## International Commission for the Conservation of Atlantic Tuna - ICCAT
 
