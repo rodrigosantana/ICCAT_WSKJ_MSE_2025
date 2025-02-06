@@ -63,3 +63,16 @@ W-SKJ MSE during 2025.
 3) Implement robustness tests scenarios that incorporate potential effects of climate change on the western Atlantic skipjack tuna stock and present the results of these analysis during the Tropical Tuna Species Group meeting. [**22 September 2025**].
 
 # 5. Code Development
+
+Soon...
+
+# 6. References
+
+- Huynh Q. C., Carruthers T., Mourato B., Sant'Ana R., Cardoso LG., Travassos P. and Hazin F. 2020. A demonstration of a MSE framework for western skipjack tuna, including operating model conditioning. Collect. Vol. Sci. Pap. ICCAT, 77(8): 121-144.
+
+- Merino G., A. Urtizberea, D. García, J. Santiago, H. Murua, W. Harford, J. Walter Jr., D. Gaertner 2020. Final Report of the ICCAT short-term contract: modelling approaches - support to ICCAT Tropical tunas MSE process. Collect. Vol. Sci. Pap. ICCAT, 76(6): 997-1009.
+
+- Mourato B.L., Cardoso L.G., Arocha F., Narvaez M., Sant’Ana, R. 2022a. Western atlantic skipjack tuna MSE:
+updates to the operating models and initial evaluation of the relative performance of preliminary management procedures. Collect. Vol. Sci. Pap. ICCAT, 79(1): 384-418.
+
+- Mourato B.L., Cardoso L.G., Sant’Ana, R. 2022b. Management strategy evaluation for the western Atlantic skipjack tuna with operation model conditioning based on the Stock Synthesis model. Collect. Vol. Sci. Pap. ICCAT, 79(1): 851-906.
