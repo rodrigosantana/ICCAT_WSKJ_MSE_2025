@@ -23,7 +23,7 @@ permit further analysis and review by the SCRS, including climatic change robust
 
 # 2. MSE Overview
 
-The W-SKJ MSE is built using an open-source MSE software package called openMSE. The package can input information from assessment models built with the Stock Synthesis framework (the 2022 W-SKJ stock assessment, in this case) to efficiently create – and then customize – an MSE framework for testing candidate management procedures (CMPs), including the approximately 100 CMPs that come preloaded in openMSE.
+The W-SKJ MSE is built using an open-source MSE software package called [openMSE](https://openmse.com). The package can input information from assessment models built with the Stock Synthesis framework (the 2022 W-SKJ stock assessment, in this case) to efficiently create – and then customize – an MSE framework for testing candidate management procedures (CMPs), including the approximately 100 CMPs that come preloaded in openMSE.
 
 ## 2.1. Indices of Abundance
 
@@ -41,12 +41,17 @@ The 9 OMs allow for all combinations of these options (3x3=9). These 9 OMs were 
 
 There are also two sets of “robustness” OMs already implemented. They were implemented to evaluate less likely but still possible scenarios, similar to more extreme “sensitivity runs” in a stock assessment. These additional scenarios included a new uncertainty axis containing two new levels. Both addressed possible TAC implementation/control problems (e.g. 10% and 20% implementation error). This inclusion had resulted in 18 new robustness OMs (9x2=18).
 
-## 2.3. Management Objectives
+# 3. Conceptual Management Objectives
 
-The W-SKJ MSE currently includes twenty (20) key performance indicators as an initial benchmark for evaluation of the Commission’s four agreed management objectives. The limit reference point (BLIM) is set at 40%*SSBMSY for western skipjack, as has been done for other stocks, including North Atlantic swordfish, North Atlantic albacore and Atlantic bluefin tuna. The target reference point is set at
-SSBMSY.
+**Status**: The stock should have a 60% or greater probability of occurring in the green quadrant of the Kobe matrix over the medium-term (4-10 years) using a 30-year projection period;
 
-# 3. Work Plan for 2025
+**Safety**: There should be no greater than 10% probability of the stock falling below B<sub>LIM</sub> (0.4*B<sub>MSY</sub>) at any point during the 30-year projection period;
+
+**Yield**: Maximize overall catch levels;
+
+**Stability**: Any changes in TAC between management periods should be 25% or less.
+
+# 4. Work Plan for 2025
 
 Below is described, in a hierarchical manner, the proposed work plan for the evolution and progress of the
 W-SKJ MSE during 2025.
@@ -57,4 +62,4 @@ W-SKJ MSE during 2025.
 
 3) Implement robustness tests scenarios that incorporate potential effects of climate change on the western Atlantic skipjack tuna stock and present the results of these analysis during the Tropical Tuna Species Group meeting. [**22 September 2025**].
 
-# 4. Code Development
+# 5. Code Development
