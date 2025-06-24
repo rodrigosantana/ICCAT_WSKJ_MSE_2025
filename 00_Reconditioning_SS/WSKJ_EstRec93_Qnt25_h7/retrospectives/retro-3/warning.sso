@@ -1,0 +1,6 @@
+Warning 1 : Block:1 1 ends in: 2025 after retroyr+1:  2022
+Warning 2 Adjustment:  recdev_end: 2022 > retro_yr: 2021 reset 
+Warning 3 : Final gradient: 0.18166 is larger than final_conv: 0.0001
+Note 1 Information: A revised protocol for the Fcast_yr specification is available and recommended.
+Note 2 Information:  N parameters that are on or within 1% of min-max bound: 1; check results, variance may be suspect
+ 3 warnings  and 2 notes 
