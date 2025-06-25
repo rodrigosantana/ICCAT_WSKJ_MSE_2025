@@ -175,7 +175,7 @@ p00 <- ggplot() +
 p00
 
 ######@> Exportando as figuras anuais...
-ggsave("06_Results/01_Indices/Fig_01_Comp_Indices_ver00.tiff",
+ggsave("07_Results/01_Indices/Fig_01_Comp_Indices_ver00.tiff",
        plot = p00, device = "tiff", units = "cm", w = 25, h = 35,
        dpi = 600, bg = "white")
 
@@ -241,7 +241,7 @@ p01
 
 
 ######@> Exportando as figuras anuais...
-ggsave("06_Results/01_Indices/Fig_02_Comp_Inverse_Variance_ver00.tiff",
+ggsave("07_Results/01_Indices/Fig_02_Comp_Inverse_Variance_ver00.tiff",
        plot = p01, device = "tiff", units = "cm", w = 35, h = 20,
        dpi = 600, bg = "white")
 

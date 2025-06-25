@@ -174,7 +174,7 @@ p00 <- ggplot() +
           plot.title.position = "plot")
 p00
 
-ggsave("06_Results/03_Historical_Simulations/Fig_09_Comp_RecDevs_ver00.tiff",
+ggsave("07_Results/03_Historical_Simulations/Fig_09_Comp_RecDevs_ver00.tiff",
        plot = p00, device = "tiff", units = "cm", w = 40, h = 25,
        dpi = 600, bg = "white")
 
@@ -304,7 +304,7 @@ p01 <- ggplot() +
           legend.position.inside = c(0.1, 0.97))
 p01
 
-ggsave("06_Results/03_Historical_Simulations/Fig_10_Comp_SSB_ver00.tiff",
+ggsave("07_Results/03_Historical_Simulations/Fig_10_Comp_SSB_ver00.tiff",
        plot = p01, device = "tiff", units = "cm", w = 40, h = 25,
        dpi = 600, bg = "white")
 
@@ -331,7 +331,7 @@ p02 <- ggplot() +
           legend.position.inside = c(0.1, 0.97))
 p02
 
-ggsave("06_Results/03_Historical_Simulations/Fig_11_Comp_SSB_SSBmsy_ver00.tiff",
+ggsave("07_Results/03_Historical_Simulations/Fig_11_Comp_SSB_SSBmsy_ver00.tiff",
        plot = p02, device = "tiff", units = "cm", w = 40, h = 25,
        dpi = 600, bg = "white")
 
@@ -359,7 +359,7 @@ p03 <- ggplot() +
           legend.position.inside = c(0.1, 0.97))
 p03
 
-ggsave("06_Results/03_Historical_Simulations/Fig_12_Comp_F_Fmsy_ver00.tiff",
+ggsave("07_Results/03_Historical_Simulations/Fig_12_Comp_F_Fmsy_ver00.tiff",
        plot = p03, device = "tiff", units = "cm", w = 40, h = 25,
        dpi = 600, bg = "white")
 

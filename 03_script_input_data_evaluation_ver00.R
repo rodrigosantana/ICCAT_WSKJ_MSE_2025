@@ -248,7 +248,7 @@ p02
 #####@> Combining plots...
 plot00 <- p00 / p01 / p02
 
-ggsave("06_Results/02_Input_Data/Fig_03_Comp_Catches_ver00.tiff",
+ggsave("07_Results/02_Input_Data/Fig_03_Comp_Catches_ver00.tiff",
        plot = plot00, device = "tiff", units = "cm", w = 35, h = 40,
        dpi = 600, bg = "white")
 
@@ -385,7 +385,7 @@ p05 <- ggplot(data = SSB,
     theme(legend.position = "top")
 p05
 
-ggsave("06_Results/02_Input_Data/Fig_04_Comp_SSB_ver00.tiff",
+ggsave("07_Results/02_Input_Data/Fig_04_Comp_SSB_ver00.tiff",
        plot = p05, device = "tiff", units = "cm", w = 35, h = 35,
        dpi = 600, bg = "white")
 
@@ -412,7 +412,7 @@ p06 <- ggplot(data = SSB_SSBmsy,
     theme(legend.position = "top")
 p06
 
-ggsave("06_Results/02_Input_Data/Fig_05_Comp_SSB_SSBmsy_ver00.tiff",
+ggsave("07_Results/02_Input_Data/Fig_05_Comp_SSB_SSBmsy_ver00.tiff",
        plot = p06, device = "tiff", units = "cm", w = 35, h = 35,
        dpi = 600, bg = "white")
 
@@ -457,7 +457,7 @@ p07 <- ggplot(data = MSY,
     theme(legend.position = "none")
 p07
 
-ggsave("06_Results/02_Input_Data/Fig_06_Comp_MSY_ver00.tiff",
+ggsave("07_Results/02_Input_Data/Fig_06_Comp_MSY_ver00.tiff",
        plot = p07, device = "tiff", units = "cm", w = 25, h = 30,
        dpi = 600, bg = "white")
 
@@ -485,7 +485,7 @@ p08 <- ggplot(data = F_Fmsy,
     theme(legend.position = "top")
 p08
 
-ggsave("06_Results/02_Input_Data/Fig_07_Comp_F_Fmsy_ver00.tiff",
+ggsave("07_Results/02_Input_Data/Fig_07_Comp_F_Fmsy_ver00.tiff",
        plot = p08, device = "tiff", units = "cm", w = 35, h = 35,
        dpi = 600, bg = "white")
 
@@ -594,7 +594,7 @@ p10
 ####@> Combining plots...
 plot01 <- p09 / p10
 
-ggsave("06_Results/02_Input_Data/Fig_08_Comp_Index_SSB_SSBmsy_ver00.tiff",
+ggsave("07_Results/02_Input_Data/Fig_08_Comp_Index_SSB_SSBmsy_ver00.tiff",
        plot = plot01, device = "tiff", units = "cm", w = 35, h = 35,
        dpi = 600, bg = "white")
 
