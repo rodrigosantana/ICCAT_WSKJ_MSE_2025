@@ -20,20 +20,20 @@
 ########################################################################
 ######@> Setup R...
 
-######@> Update openMSE R packages (This will update openMSE packages if
-######@> there are updates on GitHub)...
-source("01_script_openMSE_packages_ver00.R")
-
-######@> Load some custom functions...
-source("00_script_functions_ver00.R")
-
-######@> Load some MP custom functions...
-source("06_script_MP_Internal_Functions_ver00.R")
-
-######@> Loading R packages...
-library(dplyr)
-library(ggplot2)
-library(openMSE)
+## ######@> Update openMSE R packages (This will update openMSE packages if
+## ######@> there are updates on GitHub)...
+## source("01_script_openMSE_packages_ver00.R")
+## 
+## ######@> Load some custom functions...
+## source("00_script_functions_ver00.R")
+## 
+## ######@> Load some MP custom functions...
+## source("06_script_MP_Internal_Functions_ver00.R")
+## 
+## ######@> Loading R packages...
+## library(dplyr)
+## library(ggplot2)
+## library(openMSE)
 
 ######@> Function to load a list of MSEs...
 GetMSEs <- function(MPpath) {
@@ -54,49 +54,49 @@ GetMSEs <- function(MPpath) {
 ########################################################################
 ######@> Loading dataset...
 
-######@> Management Procedure...
-
-#####@> List tuned management options...
-ManagementOptionsTune <- list.dirs("05_TunedMPs", recursive = FALSE,
-                                   full.names = TRUE)
-
-#####@> Select the DataLag and Management Interval options - For tuned
-#####@> MPs...
-MngOptionTune <- ManagementOptionsTune[1] ## DataLag_1_Interval_3
-
-#####@> Listing tuned MPs...
-tunedMPs <- list.files(MngOptionTune, full.names = TRUE, recursive = FALSE)
-MPnames <- gsub('.mp', '', basename(tunedMPs))
-
-#####@> Select MPs to Project...
-ProjectMPs <- MPnames
-
-#####@> Reading and preparing the Tuned MPs for projections...
-for (i in seq_along(ProjectMPs)) {
-    ind <- match(ProjectMPs[i], MPnames)
-    mp <- readRDS(tunedMPs[ind])$MPout
-    assign(ProjectMPs[i], mp, envir = .GlobalEnv)
-}
-
-######@> List of management options...
-ManagementOptions <- list.dirs("06_MSEs",
-                               recursive = FALSE,
-                               full.names = TRUE)
-
-######@> Select the DataLag and Management Interval options...
-MngOption <- ManagementOptions[1] ## DataLag_1_Interval_3
-
-######@> Defining the path for the selected Management options...
-MPpaths <- list.dirs(MngOption, recursive = FALSE, full.names = TRUE)
-
-#####@> Filtering cases - MPs tuned to 1-30...
-MPpaths <- MPpaths[grepl("1_30", MPpaths)]
-
-######@> Loading OMs example of data...
-MSEs <- lapply(MPpaths, GetMSEs)
-
-######@> Extracting MSEs based on a specific OM and combine them...
-OMsQnt25_h6 <- extrair_por_substring(MSEs, "Qnt25_h6")
+## ######@> Management Procedure...
+## 
+## #####@> List tuned management options...
+## ManagementOptionsTune <- list.dirs("05_TunedMPs", recursive = FALSE,
+##                                    full.names = TRUE)
+## 
+## #####@> Select the DataLag and Management Interval options - For tuned
+## #####@> MPs...
+## MngOptionTune <- ManagementOptionsTune[1] ## DataLag_1_Interval_3
+## 
+## #####@> Listing tuned MPs...
+## tunedMPs <- list.files(MngOptionTune, full.names = TRUE, recursive = FALSE)
+## MPnames <- gsub('.mp', '', basename(tunedMPs))
+## 
+## #####@> Select MPs to Project...
+## ProjectMPs <- MPnames
+## 
+## #####@> Reading and preparing the Tuned MPs for projections...
+## for (i in seq_along(ProjectMPs)) {
+##     ind <- match(ProjectMPs[i], MPnames)
+##     mp <- readRDS(tunedMPs[ind])$MPout
+##     assign(ProjectMPs[i], mp, envir = .GlobalEnv)
+## }
+## 
+## ######@> List of management options...
+## ManagementOptions <- list.dirs("06_MSEs",
+##                                recursive = FALSE,
+##                                full.names = TRUE)
+## 
+## ######@> Select the DataLag and Management Interval options...
+## MngOption <- ManagementOptions[1] ## DataLag_1_Interval_3
+## 
+## ######@> Defining the path for the selected Management options...
+## MPpaths <- list.dirs(MngOption, recursive = FALSE, full.names = TRUE)
+## 
+## #####@> Filtering cases - MPs tuned to 1-30...
+## MPpaths <- MPpaths[grepl("1_30", MPpaths)]
+## 
+## ######@> Loading OMs example of data...
+## MSEs <- lapply(MPpaths, GetMSEs)
+## 
+## ######@> Extracting MSEs based on a specific OM and combine them...
+## OMsQnt25_h6 <- extrair_por_substring(MSEs, "Qnt25_h6")
 
 ########################################################################
 ######@> Performance Metrics / Statistics...
