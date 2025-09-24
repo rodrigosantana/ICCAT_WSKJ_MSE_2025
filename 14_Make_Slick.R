@@ -252,12 +252,14 @@ for (i in 1:nrow(Design)) {
   }
 }
 
-# Spider
 
 saveRDS(Slick, 'Western_Atlantic_Skipjack.slick')
 
+# Test App
 App(slick=Slick)
 
+
+# Spider
 
 # Tradeoff
 
